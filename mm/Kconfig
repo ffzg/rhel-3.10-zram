@@ -480,11 +480,6 @@ config FRONTSWAP
 
 	  If unsure, say Y to enable frontswap.
 
-<<<<<<< HEAD
-config ZBUD
-	tristate
-	default n
-=======
 config CMA
 	bool "Contiguous Memory Allocator"
 	depends on HAVE_MEMBLOCK && MMU
